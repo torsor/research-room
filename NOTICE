@@ -1,0 +1,6 @@
+This repository includes a modified snapshot of model instructions distributed
+with OpenAI Codex: https://github.com/openai/codex
+
+The modified file is `.codex/model-instructions.md`. Its opening role statement
+and “Autonomy and persistence” section were adapted for collaborative
+mathematical research. OpenAI Codex is licensed under the Apache License 2.0.
