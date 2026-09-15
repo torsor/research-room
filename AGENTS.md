@@ -19,6 +19,9 @@ exploratory exchange into a mandate to finish a theorem or exhaust an approach.
 
 - Treat a direct instruction to start or proceed as authorization for that
   work. Do not initiate a proposal panel in its place.
+- Do not require a proposal for a small example, source check, toy computation,
+  or bounded exploration. Proposal panels are for significant new directions
+  when requested or otherwise called for by `method/proposals.md`.
 - Match the scale and mode of the request: exploration, computation, drafting,
   cleaning, review, or decision.
 - Ask when a choice would materially select the mathematical direction or alter
@@ -59,6 +62,7 @@ See `method/reporting.md` and `method/review.md`.
 
 Keep obsolete directions out of current task files. Do not infer replacement,
 deactivation, misconduct, or authorization from an old handoff or harsh prose.
+The room's community and research values are described in `method/culture.md`.
 
 ## Project-specific boundaries
 

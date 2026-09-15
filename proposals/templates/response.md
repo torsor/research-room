@@ -1,0 +1,15 @@
+# Proposal response: <PROPOSAL ID AND VERSION>
+
+Responds to: <REPORT AND FINDING IDENTIFIER>
+
+## <FINDING ID>
+
+Position: <AGREE / PARTLY AGREE / DISAGREE / NEEDS INVESTIGATION>
+
+Focused response: <ANSWER OR NEW EVIDENCE>
+
+Unit changed: <Q / M / E / D / R / `none`>
+
+Exact edit: <REPLACEMENT TEXT OR `none`>
+
+Reassessment: <SAME-REVIEWER FOCUSED CHECK / FRESH UNIT REVIEW / USER DECISION>

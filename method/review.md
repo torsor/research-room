@@ -25,6 +25,11 @@ to review, meaningful if accepted, and reusable without reconstructing its
 proof. Keep tightly coupled mathematics together. Do not create a separate
 panel for every routine lemma.
 
+Clean and referee one coherent unit at a time. Within a unit, reports address
+the numbered claims and passages separately rather than replacing them with one
+whole-manuscript impression. A manuscript-level outcome is assembled only after
+the units, their applications, and the coverage register have been reconciled.
+
 Splitting a manuscript does not erase relevant review history, but history
 attaches to the claim and objection actually reviewed. Do not charge an earlier
 whole-manuscript failure automatically to an independent claim or application

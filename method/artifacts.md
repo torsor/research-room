@@ -12,6 +12,9 @@ Each artifact should have a distinct purpose:
 | Review artifacts, when needed | The exact object reviewed, objections, and outcomes | Preserve version identity and the review trail |
 | Optional `HANDOFF.md` | A short operational reminder for resuming unfinished work | Rewrite in place; remove obsolete state |
 
+Adjustable processor and time thresholds live only in `resources.md`; other
+method files should link there rather than copying values that can drift apart.
+
 History and current directions have different jobs. The journal's append-only
 rule does not apply to every orientation or task file. Current directions
 should not accumulate obsolete instructions under repeated "current" headings.

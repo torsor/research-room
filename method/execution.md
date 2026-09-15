@@ -6,56 +6,34 @@ A direct instruction from the user to start, proceed, compute, investigate,
 write, or review authorizes that work within its stated scope. Start the work.
 Do not substitute an unsolicited proposal or funding panel.
 
-Execution and mathematical certification are separate. Authorization to run
-a computation does not certify its interpretation, and lack of a reviewed
-interpretation need not prevent a useful computation with explicit assumptions.
+Requests such as "explore this" authorize exploration at a reasonable scale.
+They do not automatically authorize a large computation or a certification
+process. If ambiguity materially changes the object, direction, or commitment,
+ask a concise clarifying question. A small bounded interpretation may proceed
+without a proposal when it remains useful under the plausible readings.
 
-If intent is materially ambiguous, ask before initiating a costly review
-procedure. Do not manufacture an approval requirement from ordinary uncertainty.
+Execution and mathematical certification are separate. Authorization to run a
+computation does not certify its interpretation, and lack of a reviewed
+interpretation need not prevent a useful calculation with explicit assumptions.
 
 ## Agent-suggested directions
 
-Before committing substantial unrequested effort, explain the question,
-expected learning, main uncertainty, and approximate cost. A small exploration
-may be the best way to obtain the information needed for that decision.
+A small example, source check, toy calculation, or bounded experiment does not
+need a proposal panel. Before committing substantial unrequested effort, explain
+the question, expected learning, main uncertainty, and approximate cost.
 
-A formal proposal panel is available when the user wants one or when an
-agreed project policy specifically calls for it. It is not a universal gate.
-Do not manufacture numerical success probabilities without a defensible basis.
+A formal proposal is available when the user wants one, an agreed project policy
+calls for one, or a genuinely new and significant agent-suggested direction
+competes with other uses of research time. If the need for a panel is ambiguous,
+ask the user rather than silently initiating it. See `proposals.md`.
 
-Preserve the distinction between an outstanding user request and a completed
+Preserve the distinction between an outstanding request and a completed
 preparatory step. A planning document does not complete a request for execution.
 
-## Bounded experiments and resource decisions
+## Bounded work
 
-When an agent-suggested computation has uncertain cost, begin with a bounded
-experiment rather than requiring a speculative full-run estimate. The default
-bound is up to four processors and thirty minutes of wall time. State exactly
-what the experiment will produce and preserve a partial result if it stops at
-the bound.
-
-If the requested computation finishes within that bound, the experiment itself
-is the result and no further resource review is needed. If it does not finish,
-measure the work completed and make an actual estimate from those measurements:
-runtime, processor use, memory, output size, and the assumptions behind any
-extrapolation.
-
-For unrequested work after that estimate:
-
-- An important computation expected to take less than three hours may proceed
-  without another approval step.
-- If importance is borderline and the expected time is under three hours, ask
-  the user before proceeding.
-- An important computation expected to take more than three hours requires
-  user input before proceeding.
-- A computation expected to take between three hours and one week should not
-  be launched on the agent's judgment alone; present the measured estimate and
-  the expected learning to the user.
-- A computation whose expected time exceeds one week is outside the default
-  scope and should be refused or reduced to a smaller question. An explicit
-  user request may change the scope, but the estimate and tradeoff must remain
-  visible.
-
-These are decision thresholds, not claims about mathematical importance or
-truth. A proposal panel may identify a resource concern, but “not yet
-measured” is not by itself a reason to reject a cheap bounded experiment.
+Use `resources.md` for the adjustable processor, wall-time, and escalation
+thresholds. Uncertain cost alone does not block a bounded experiment. If the
+experiment finishes inside the bound, its output is available for interpretation.
+If it does not, make the next resource decision from measurements rather than a
+speculative estimate.

@@ -14,6 +14,9 @@ Run this check before publishing a repository copied from the template.
 - Confirm that examples contain invented names and problem-neutral mathematics.
 - Check licenses and permissions for copied prompts, papers, figures, datasets,
   code, and other third-party material.
+- Decide whether new project content uses the template's Apache-2.0 license or a
+  separate license, and state that choice without implying ownership of retained
+  third-party material.
 - Ensure `.codex/config.toml` contains a public placeholder rather than a local
   absolute path. Each user should substitute their own path after cloning.
 - Run a secret scanner appropriate to the hosting service before the first push.

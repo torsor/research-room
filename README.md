@@ -30,8 +30,9 @@ session identifiers, unpublished mathematics, or inherited project history.
 - `notes/`: arguments, examples, computations, and informative dead ends.
 - `canonical/`: current load-bearing claims and their support.
 - `review/`: exact review units, reports, responses, and outcome records.
+- `proposals/`: optional piecewise proposal, clarity, panel, and response forms.
 - `method/`: culture, execution, reporting, artifacts, review, proposals,
-  and optional handoff policy.
+  adjustable resources, and optional handoff policy.
 
 The files divide responsibilities rather than duplicating a master status
 report. Current questions belong in `goals/`; historical reasoning belongs in
@@ -42,8 +43,8 @@ may go in one short, replaceable `HANDOFF.md` when needed.
 
 - Direct requests authorize the work they ask for. Proposal review is not a
   substitute for beginning requested research.
-- Cheap uncertain computations begin as bounded experiments using at most four
-  processors and thirty minutes of wall time.
+- Cheap uncertain computations begin under the adjustable bounded-experiment
+  policy in `method/resources.md`.
 - Manuscript cleaning is collaborative. Cleaners can ask located questions and
   propose edits; the author confirms that the cleaned text preserves intent.
 - Mathematical certification remains independent. Blind referees see an exact,
@@ -59,3 +60,10 @@ may go in one short, replaceable `HANDOFF.md` when needed.
 
 This scaffold is an example policy, not a claim that one workflow suits every
 research collaboration. Adjust it openly when its costs stop serving the work.
+
+## License
+
+The template is distributed under Apache-2.0. That license covers the template
+files as distributed. Researchers may choose their own license for original
+notes, manuscripts, computations, and other content added after copying the
+template, subject to the licenses of any template material they retain.
