@@ -1,3 +1,3 @@
 # Codex currently requires an absolute path for model_instructions_file.
-# Replace this placeholder after cloning or copying the template.
+# Run ./setup.sh from the room to fill it in, or replace the placeholder by hand.
 model_instructions_file = "<ABSOLUTE-PATH-TO-RESEARCH-ROOM>/.codex/model-instructions.md"

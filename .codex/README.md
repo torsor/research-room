@@ -3,7 +3,8 @@
 `config.toml` points Codex at `model-instructions.md`, which replaces the
 selected model's bundled base instructions for sessions started in this trusted
 project. Codex currently requires `model_instructions_file` to be an absolute
-path, so every user must replace the public placeholder after cloning.
+path, so every user must replace the public placeholder after cloning;
+`./setup.sh` at the room root does this.
 
 The included instruction file is a minimally modified snapshot of base
 instructions distributed with OpenAI Codex. Two areas were changed:

@@ -15,7 +15,8 @@ session identifiers, unpublished mathematics, or inherited project history.
 1. Replace `<PROJECT TITLE>` and the other placeholders in `AGENTS.md`,
    `conventions.md`, and `goals/question-template.md`.
 2. Rename `goals/question-template.md` for the first research question.
-3. In `.codex/config.toml`, replace `<ABSOLUTE-PATH-TO-RESEARCH-ROOM>`.
+3. Run `./setup.sh`. It sets the absolute path in `.codex/config.toml` (rerun
+   it if the room moves) and offers to delete the template's `.git`.
 4. Review `.codex/README.md`; the model-instruction snapshot may need to be
    refreshed for the Codex model in use.
 5. Run the public-release checks in `PUBLICATION_CHECKLIST.md` before posting.
@@ -24,6 +25,7 @@ session identifiers, unpublished mathematics, or inherited project history.
 
 - `AGENTS.md`: short working agreement and reading order.
 - `.codex/`: local Codex configuration and minimally adapted base instructions.
+- `setup.sh`: sets the Codex instructions path; offers to drop the template's `.git`.
 - `conventions.md`: definitions, notation, and standing assumptions.
 - `goals/`: concise, editable statements of current questions.
 - `journal.md`: chronological reasoning and changes of direction.
