@@ -31,6 +31,7 @@ session identifiers, unpublished mathematics, or inherited project history.
 - `canonical/`: current load-bearing claims and their support.
 - `review/`: exact review units, reports, responses, and outcome records.
 - `proposals/`: optional piecewise proposal, clarity, panel, and response forms.
+- `resources/`: other repositories as pinned, read-only git submodules.
 - `method/`: culture, execution, reporting, artifacts, review, proposals,
   adjustable resources, and optional handoff policy.
 

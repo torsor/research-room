@@ -64,9 +64,16 @@ Keep obsolete directions out of current task files. Do not infer replacement,
 deactivation, misconduct, or authorization from an old handoff or harsh prose.
 The room's community and research values are described in `method/culture.md`.
 
+## Sources
+
+- `resources/` holds other repositories this room draws on, as pinned git
+  submodules. They are read-only here: mine them freely, never edit or commit
+  inside them, and rederive what you rely on before building on it. A fresh
+  checkout needs `git submodule update --init` before they appear.
+
 ## Project-specific boundaries
 
-- Read-only material: <PATHS OR `none`>.
+- Read-only material: `resources/`; <OTHER PATHS OR `none`>.
 - Shared or concurrently edited material: <PATHS OR `none`>.
 - External sources requiring special handling: <DESCRIPTION OR `none`>.
 - Additional standing constraints: <CONSTRAINTS OR `none`>.
