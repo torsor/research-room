@@ -13,7 +13,9 @@ session identifiers, unpublished mathematics, or inherited project history.
 ## Start a project
 
 1. Replace `<PROJECT TITLE>` and the other placeholders in `AGENTS.md`,
-   `conventions.md`, and `goals/question-template.md`.
+   `conventions.md`, and `goals/question-template.md` — or leave them and let
+   the agent fill them in conversation at the first session (`AGENTS.md`,
+   "Starting an unfilled room").
 2. Rename `goals/question-template.md` for the first research question.
 3. Run `./setup.sh`. It sets the absolute path in `.codex/config.toml` (rerun
    it if the room moves) and offers to delete the template's `.git`.

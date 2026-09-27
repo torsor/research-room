@@ -8,6 +8,23 @@ Read `conventions.md` first, then the relevant file in `goals/` and only the
 artifacts needed for the current question. Read a method file when its subject
 applies. Do not reread the entire archive on every turn.
 
+## Starting an unfilled room
+
+If `AGENTS.md`, `conventions.md`, or `goals/` still contain angle-bracket
+prompts such as `<RESEARCH TOPIC>`, this room has not been started. That is a
+normal state, not an error: the user often prefers to fill a room in
+conversation rather than by hand. Do not guess the mathematics and do not
+begin research.
+
+Open by asking for what the prompts need, in one exchange where possible: the
+topic in a phrase; the first question; notation and standing assumptions the
+user takes as standard; which material is read-only or shared; any standing
+constraints. Then fill the prompts, copy `goals/question-template.md` to
+`goals/<short-slug>.md` and complete it, record the kickoff and the user's
+answers in `journal.md`, and commit ("room: kickoff"). A prompt the user
+could not yet answer stays in place and is listed in the journal. The forms
+under `review/templates/` are filled per review, never at kickoff.
+
 ## Research purpose
 
 A sharper question, a useful example, a computed obstruction, a corrected
